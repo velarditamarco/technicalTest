@@ -1,0 +1,14 @@
+
+table {
+  counter-reset: section;
+}
+
+.count:before {
+  counter-increment: section;
+  content: counter(section);
+}
+
+  h1{
+      text-align: center;
+      color: red;
+  }
